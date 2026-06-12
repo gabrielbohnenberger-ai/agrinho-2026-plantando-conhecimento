@@ -3,130 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026 | Conexão Campo e Cidade</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Agrinho 2026 - Agro Forte: Futuro Sustentável</title>
+    <style>
+        /* Estilos Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f9f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* Menu de Navegação */
+        nav {
+            background-color: #1b5e20;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            margin: 0 0.5rem;
+            font-weight: bold;
+            transition: background 0.3s;
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            background-color: #4caf50;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Seções */
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            color: #2e7d32;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #81c784;
+            padding-bottom: 0.5rem;
+        }
+
+        /* Cards para Destaques */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .card {
+            background-color: #e8f5e9;
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 5px solid #2e7d32;
+        }
+
+        .card h3 {
+            color: #1b5e20;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="interface">
-            <div class="brand">
-                <h2>Agrinho<span>2026</span></h2>
-            </div>
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="#proposito">Propósito</a></li>
-                    <li><a href="#simulador">Tecnologia Aplicada</a></li>
-                    <li><a href="#equilibrio">Campo & Cidade</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header>
+        <h1>Projeto Agrinho 2026</h1>
+        <p>Agro Forte: Futuro Sustentável</p>
     </header>
 
-    <section id="proposito" class="hero">
-        <div class="interface">
-            <div class="hero-content">
-                <span class="tag-tema">Tema Oficial 2026</span>
-                <h1>Agro Forte, Futuro Sustentável</h1>
-                <p>O equilíbrio real entre os meios de produção do campo e o consumo consciente da cidade. Uma conexão vital para garantir o abastecimento sem esgotar o nosso planeta.</p>
-                <div class="indicadores-rapidos">
-                    <div class="ind-box">
-                        <strong>-35%</strong>
-                        <span>Desperdício de água</span>
-                    </div>
-                    <div class="ind-box">
-                        <strong>+20%</strong>
-                        <span>Eficiência logística</span>
-                    </div>
+    <nav>
+        <a href="#sobre">Sobre o Projeto</a>
+        <a href="#pilares">Pilares Sustentáveis</a>
+        <a href="#tecnologia">Inovação</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>O Agrinho 2026 traz como debate central a união entre a força do campo e a necessidade urgente de práticas sustentáveis. Nosso objetivo é mostrar como a tecnologia, o respeito ao meio ambiente e a produção de alimentos caminham juntos para garantir o sustento das próximas gerações.</p>
+        </section>
+
+        <section id="pilares">
+            <h2>Pilares do Agro Sustentável</h2>
+            <p>Para construir um futuro forte, o agronegócio moderno se apoia em três bases principais:</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Preservação Ambiental</h3>
+                    <p>Uso consciente da água, proteção de nascentes, rotação de culturas e reflorestamento de áreas degradadas.</p>
+                </div>
+                <div class="card">
+                    <h3>Responsabilidade Social</h3>
+                    <p>Valorização do trabalhador do campo, apoio à agricultura familiar e desenvolvimento das comunidades rurais.</p>
+                </div>
+                <div class="card">
+                    <h3>Viabilidade Econômica</h3>
+                    <p>Produzir mais em menos espaço, reduzindo desperdícios e otimizando os recursos financeiros com inteligência.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="simulador" class="dashboard-area">
-        <div class="interface">
-            <div class="section-header">
-                <h2>Central de Equilíbrio Produtivo</h2>
-                <p>Monitore como as decisões no campo impactam diretamente o ecossistema urbano em tempo real.</p>
-            </div>
+        <section id="tecnologia">
+            <h2>O Futuro já Começou: Tecnologia no Campo</h2>
+            <p>A tecnologia é a maior aliada da sustentabilidade. Através de ferramentas inteligentes, conseguimos monitorar lavouras com precisão cirúrgica, evitando excessos e protegendo o ecossistema.</p>
+            <ul>
+                <li><strong>Drones e Satélites:</strong> Mapeamento de pragas e monitoramento da saúde das plantas em tempo real.</li>
+                <li><strong>Energia Limpa:</strong> Crescimento do uso de painéis solares e biomassa nas propriedades rurais.</li>
+                <li><strong>Tratores Autônomos:</strong> Otimização do plantio e da colheita, reduzindo a emissão de carbono.</li>
+            </ul>
+        </section>
 
-            <div class="painel-controle">
-                <div class="col-controles">
-                    <h3>Ações de Manejo</h3>
-                    <p class="instrucao">Altere as estratégias de produção para equilibrar o sistema:</p>
-                    
-                    <div class="grupo-input">
-                        <label>Tipo de Irrigação:</label>
-                        <select id="select-irrigacao">
-                            <option value="tradicional">Aspersão Tradicional (Alto Consumo)</option>
-                            <option value="gotejamento">Gotejamento Automatizado (Sustentável)</option>
-                        </select>
-                    </div>
+    </div>
 
-                    <div class="grupo-input">
-                        <label>Logística de Escoamento:</label>
-                        <select id="select-logistica">
-                            <option value="comum">Caminhões Antigos (Alta Emissão CO2)</option>
-                            <option value="verde">Frota Otimizada / Biocombustível</option>
-                        </select>
-                    </div>
-
-                    <button id="btn-atualizar" class="btn-acao">Atualizar Indicadores</button>
-                </div>
-
-                <div class="col-resultados">
-                    <h3>Resultados do Ecossistema</h3>
-                    
-                    <div class="grid-metricas">
-                        <div class="card-metrica">
-                            <span class="label-metrica">Reserva Hídrica (Campo)</span>
-                            <div class="barra-progresso">
-                                <div id="barra-agua" class="progresso" style="width: 50%;"></div>
-                            </div>
-                            <span id="txt-agua" class="status-texto">Crítico</span>
-                        </div>
-
-                        <div class="card-metrica">
-                            <span class="label-metrica">Qualidade do Ar (Cidade)</span>
-                            <div class="barra-progresso">
-                                <div id="barra-ar" class="progresso" style="width: 50%;"></div>
-                            </div>
-                            <span id="txt-ar" class="status-texto">Regular</span>
-                        </div>
-
-                        <div class="card-metrica full-width">
-                            <span class="label-metrica">Índice de Sustentabilidade Geral</span>
-                            <div id="valor-sustentabilidade" class="num-destaque">50%</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="equilibrio" class="infografico">
-        <div class="interface grid-dois-lados">
-            <div class="bloco-texto">
-                <h3>O Campo Produz, a Cidade Alimenta-se</h3>
-                <p>A verdadeira sustentabilidade nasce quando a cidade entende o valor do recurso natural e o campo utiliza a tecnologia para preservar. Esse circuito integrado garante alimentos limpos na mesa urbana e florestas preservadas no interior.</p>
-            </div>
-            <div class="bloco-destaque">
-                <h4>Pilares do Projeto</h4>
-                <ul>
-                    <li><strong>Tecnologia Conectada:</strong> Sensores IoT reduzindo insumos químicos.</li>
-                    <li><strong>Circuitos Curtos:</strong> Aproximação do pequeno produtor ao consumidor urbano.</li>
-                    <li><strong>Preservação Ativa:</strong> Manutenção de APPs (Áreas de Preservação Permanente).</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <footer class="rodape">
-        <div class="interface">
-            <p>Agrinho 2026 &copy; Desenvolvimento Tecnológico voltado à Sustentabilidade do Agronegócio.</p>
-        </div>
+    <footer>
+        <p>&copy; 2026 - Projeto Desenvolvido para o Concurso Agrinho. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
